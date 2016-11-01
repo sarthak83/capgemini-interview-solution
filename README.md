@@ -125,6 +125,14 @@ I have created a feature file called **HotelBooking.feature**. It has the three 
   * reused the assersions from test case 1 to make sure hotels are added. 
   
 
+## Logging
+
+Here is the link to the live logs for various services which I could deduce based on port numbers defined. 
+
+*  hotel.log - http://localhost:9001/
+*  search.log - http://localhost:9002/
+*  ui.log - http://localhost:9003/
+*  auth.log - http://localhost:9004/
 
 
 
