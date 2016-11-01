@@ -4,7 +4,34 @@ This project contains solution for pre-interview Excercise for **Capgemini QA ca
 
 ## Directory Structure
 
-The below is the directory structure of the project which in essense is a Maven project 
+The below is the directory structure of the project which in essense is a Maven project. 
+
+1. HotelBooking <br />
+    |-- src <br />
+    |-- main <br />
+    |   -- java <br />
+    |       -- com <br />
+    |           -- capgemini <br />
+    |               -- interview <br />
+    |                   -- hotelbooking <br />
+   *  |                       -- Config.java <br />
+   *  |                       -- DriverClient.java <br />
+    *  |                       -- Utilities.java <br />
+    *  |                       -- HomePage.java <br />
+* |-- src <br />
+        |-- test <br/>
+        |-- java <br />
+        |    -- com <br />
+        |       -- capgemini <br />
+        |           -- interview <br />
+        |               -- hotelbooking <br />
+  *  |                   -- HotelBookingStepDefs.java <br />
+  *  |                   -- RunCucumberTest.java <br />
+* |-- src <br />
+|-- test <br/>
+        |-- resources <br />
+  *  -- HotelBooking.feature <br />
+* |-- pom.xml <br />
 
 
 ## Installation
@@ -16,6 +43,7 @@ The below is the directory structure of the project which in essense is a Maven 
 5. run $mvn test
 
 ## Framework explained
+
 
 
 
