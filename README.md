@@ -90,7 +90,10 @@ I have a utililty class and we can add all the common utilities like taking scre
 
 Step definitions is where all the Gherkin lines in `.feature` file is implemented. If we run the feature file, the cucumber -JVM gives all the pending step definitions which can be used as a starting point. <br/>
 
-In this case I have only one StepDef called **HotelBookingStepDefs.java**
+In this case I have only one StepDef called **HotelBookingStepDefs.java**. There has to be a matching step defenitions for each step in *.feature file. When Junit runs the cucumber tests, it first looks for feature file and then maps it to corresponding step defenitions. <br/>
+
+I create an Object of HomePage.java and do all the operations on it in HotelBookingStepDefs.java. <br/>
+
 
 ## Test Runner
 
