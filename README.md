@@ -1,6 +1,6 @@
 ## Overview
 
-This project contains solution for pre-interview Excercise for **Capgemini QA candidates**. The solution is implemented using Selenium, Java7, JUNIT, Maven and Cucumber framework in a BDD setup.
+This project contains solution for pre-interview Excercise for **Capgemini QA candidates**. The solution is implemented using Selenium, Java7, JUNIT, Maven and Cucumber JVM framework in a BDD setup.
 
 ## Directory Structure
 
@@ -113,7 +113,7 @@ I have created a feature file called **HotelBooking.feature**. It has the three 
   
 2. Delete an entry testcase
   *  I take the Hotel Name as input in this file and send it to stepdef to delete the correspondig row
-  *  Multipule hotels with the same name is also deleted and not the first one. 
+  *  Multipule hotels with the same name is also deleted and not just the first one. 
   * Assertion is added in stepdef to check if all the hotels with that name is deleted. 
   
 3. Creation of Multiple Entries Testcase
